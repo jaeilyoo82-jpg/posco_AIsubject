@@ -25,3 +25,10 @@ __pycache__/
 node_modules/
 dist/
 build/
+
+# This web application's authored static source lives in dist.
+!investment-review-web/dist/
+!investment-review-web/dist/**
+
+# Recoverable local Git metadata backups
+.git-backups/
